@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: b059adc304722f4468592bfea51fe36a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2443593294455524645
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_0"
+  - first:
+      213: -892648768344280985
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_1"
+  - first:
+      213: 4812951518638847089
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_2"
+  - first:
+      213: 6458577598718209748
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_3"
+  - first:
+      213: -6724614432632902995
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_4"
+  - first:
+      213: 36404199838338327
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_5"
+  - first:
+      213: -7281133470421339280
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_6"
+  - first:
+      213: 4400249217936685945
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_7"
+  - first:
+      213: -1124548329589976414
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_8"
+  - first:
+      213: 7159610179392351191
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_9"
+  - first:
+      213: 3412308478223615185
+    second: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_10"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_0"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 800
+        width: 303
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d4c83972369e120800000000000000
+      internalID: 2443593294455524645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_1"
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 287
+        width: 638
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76036a5bcacac93f0800000000000000
+      internalID: -892648768344280985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_2"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 614
+        width: 303
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17435a5f7e90bc240800000000000000
+      internalID: 4812951518638847089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_3"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 429
+        width: 303
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dee4e56b1a71a950800000000000000
+      internalID: 6458577598718209748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_4"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 97
+        width: 134
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa63735dce5da2a0800000000000000
+      internalID: -6724614432632902995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_5"
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 92
+        width: 155
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d42b74d65518000800000000000000
+      internalID: 36404199838338327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_6"
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 92
+        width: 155
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073345d8fa734fa90800000000000000
+      internalID: -7281133470421339280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_7"
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 92
+        width: 155
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b7e46a953d01d30800000000000000
+      internalID: 4400249217936685945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_8"
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 92
+        width: 154
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d70a904dc460f0800000000000000
+      internalID: -1124548329589976414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_9"
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 92
+        width: 154
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dba3f0668b0c5360800000000000000
+      internalID: 7159610179392351191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014wooden menu of graphical user_5999366_10"
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 97
+        width: 134
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d482945b74fa5f20800000000000000
+      internalID: 3412308478223615185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
