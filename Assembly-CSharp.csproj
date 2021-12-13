@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{3B2E5451-4D65-E220-864A-C7AE2C9F4AFA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -71,8 +70,7 @@
     <Compile Include="Assets\UserAccount.cs" />
     <Compile Include="Assets\ShopSkin.cs" />
     <Compile Include="Assets\MoveUp.cs" />
-    <Compile Include="Assets\leaderB.cs" />
-    <Compile Include="Assets\SetValue.cs" />
+    <Compile Include="Assets\SetLeaderBoard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

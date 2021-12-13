@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using PlayFab;
 using PlayFab.ClientModels;
 
-public class SetValue : MonoBehaviour
+public class SetLeaderBoard : MonoBehaviour
 {
     public GameObject row;
     public Transform parent;
@@ -18,11 +18,11 @@ public class SetValue : MonoBehaviour
         {
             StatisticName = "Neo Champion",
             StartPosition = 0,
-            MaxResultsCount = 50
+            MaxResultsCount = 6
         },
         result =>
         {
-            foreach(Transform item in parent)
+            foreach (Transform item in parent)
             {
                 Destroy(item.gameObject);
             }

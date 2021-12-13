@@ -14,12 +14,11 @@ ScriptsOnlyBuild:
     - PlayFabUI
     - PlayerData
     - ScoreCount
-    - SetValue
+    - SetLeaderBoard
     - ShopSkin
     - SpawnPipe
     - ThemDiem
     - UserAccount
-    - leaderB
     PlayFab.dll:
     - PlayFabSharedSettings
     Unity.2D.Animation.Editor.dll:
@@ -287,9 +286,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4004}
     - Class: 114
-      Script: {instanceID: 4258}
-    - Class: 114
-      Script: {instanceID: 4898}
+      Script: {instanceID: 24326}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -827,12 +824,6 @@ ScriptsOnlyBuild:
     className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: leaderB
-  - hash:
-      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -933,12 +924,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: 90fb7503b23e162e74850b0250479661
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SetValue
   - hash:
       serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
@@ -1065,6 +1050,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 90fb7503b23e162e74850b0250479661
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetLeaderBoard
   platform: 19
   scenePathNames:
   - Assets/Scenes/Login.unity
