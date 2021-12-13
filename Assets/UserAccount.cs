@@ -4,6 +4,7 @@ using UnityEngine;
 using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class UserAccount : MonoBehaviour
 {
@@ -29,6 +30,7 @@ public class UserAccount : MonoBehaviour
             reponse => { 
                 Debug.Log($"Succesful Account Create");
                 SetPlayerData("10000", "0", "0", "0");
+                SetUsername(username);
                 SignIn(username, pass);              
             },
             error => { 
@@ -45,15 +47,10 @@ public class UserAccount : MonoBehaviour
             {
                 Username = username,
                 Password = pass,
-                InfoRequestParameters = new GetPlayerCombinedInfoRequestParams { GetPlayerProfile = true }
             },
             reponse =>
             {
                 id = reponse.PlayFabId;
-                if(reponse.InfoResultPayload.PlayerProfile != null)
-                {
-                    titlename = reponse.InfoResultPayload.PlayerProfile.DisplayName;
-                }
                 Debug.Log($"Succesful Sign In");
                 GetPlayerData();
                 onLoginSuccess.Invoke();
@@ -165,7 +162,29 @@ public class UserAccount : MonoBehaviour
         }
         );
     }
-
+    public void SendLeaderBoard(int diem)
+    {
+        PlayFabClientAPI.UpdatePlayerStatistics(new UpdatePlayerStatisticsRequest()
+        {
+            Statistics = new List<StatisticUpdate>
+            {
+                new StatisticUpdate
+                {
+                    StatisticName = "Neo Champion",
+                    Value = diem
+                }
+            }
+        },
+        result =>
+        {
+            Debug.Log("send leaderboard success!");
+        },
+        error =>
+        {
+            Debug.Log("Fail send leaderboard");
+        }
+        );
+    }
     public void GetPlayerData()
     {
         PlayFabClientAPI.GetUserData(new GetUserDataRequest() { 
@@ -187,5 +206,15 @@ public class UserAccount : MonoBehaviour
         {
             Debug.Log($"Cant Get Data! \n {error.ErrorMessage}");
         });
+    }
+    public void SetUsername(string name)
+    {
+        PlayFabClientAPI.UpdateUserTitleDisplayName(new UpdateUserTitleDisplayNameRequest()
+        {
+            DisplayName = name
+        },
+        result => { },
+        error => { }
+        ) ;
     }
 }

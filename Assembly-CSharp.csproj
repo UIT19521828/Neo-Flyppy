@@ -8,8 +8,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
-    <ProjectGuid>{65B05E94-809D-C87B-CE18-DBC0C20DDFFE}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{3B2E5451-4D65-E220-864A-C7AE2C9F4AFA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,12 +65,14 @@
     <Compile Include="Assets\LoadSkin.cs" />
     <Compile Include="Assets\LoadInt.cs" />
     <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\BGround.cs" />
+    <Compile Include="Assets\Music.cs" />
     <Compile Include="Assets\PlayerData.cs" />
     <Compile Include="Assets\UserAccount.cs" />
     <Compile Include="Assets\ShopSkin.cs" />
     <Compile Include="Assets\MoveUp.cs" />
-    <Compile Include="Assets\Music.cs" />
-    <Compile Include="Assets\BGround.cs" />
+    <Compile Include="Assets\leaderB.cs" />
+    <Compile Include="Assets\SetValue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -758,11 +761,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{66044B21-FE0A-D465-37CD-D12941956F54}</Project>
+      <Project>{5A1C47A6-D3A5-546C-55F7-FACEFB0200C9}</Project>
       <Name>PlayFabSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PlayFab.csproj">
-      <Project>{2576B966-10D8-D83D-BCCA-8BBB78C17DA3}</Project>
+      <Project>{6DA9C3F2-895D-18EC-4B59-7764D35D92A6}</Project>
       <Name>PlayFab</Name>
     </ProjectReference>
   </ItemGroup>

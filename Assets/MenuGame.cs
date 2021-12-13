@@ -32,4 +32,8 @@ public class MenuGame : MonoBehaviour
     {
         BGround.instance.ChangeBG(which);
     }
+    public void Thoat()
+    {
+        Application.Quit();
+    }
 }

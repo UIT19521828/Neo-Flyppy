@@ -7,7 +7,14 @@ public class PauseGame : MonoBehaviour
 {
     public GameObject pauseCanvas;
     public AudioMixer audioMixer;
-    // Start is called before the first frame update
+
+    public void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            StopGame();
+        }
+    }
     public void StopGame()
     {
         Time.timeScale = 0;

@@ -7,10 +7,7 @@ public class LoadInt : MonoBehaviour
 {
     public Text tien;
     public Text hiS;
-    void Start()
-    {
 
-    }
     private void Update()
     {
         tien.text = PlayerData.pd.Money.ToString();

@@ -19,5 +19,6 @@ public class GameManager : MonoBehaviour
         int score =  ScoreCount.s;
         PlayerData.pd.AddMoney(score);      
         PlayerData.pd.NewHighScore(score);
+        UserAccount.Instance.SendLeaderBoard(score);
     }
 }
