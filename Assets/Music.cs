@@ -22,4 +22,8 @@ public class Music : MonoBehaviour
             source.Play();
         }
     }
+    public void Destroythis()
+    {
+        Destroy(this.gameObject);
+    }
 }

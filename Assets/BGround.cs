@@ -18,4 +18,8 @@ public class BGround : MonoBehaviour
         current = which;
         sr.sprite = bg[current];
     }
+    public void Destroythis()
+    {
+        Destroy(this.gameObject);
+    }
 }

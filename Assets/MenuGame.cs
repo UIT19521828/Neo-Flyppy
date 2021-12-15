@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class MenuGame : MonoBehaviour
 {
+    public GameObject lo;
     public void StartGame()
     {
         SceneManager.LoadScene(2);
@@ -24,6 +25,12 @@ public class MenuGame : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+    public void LogOut()
+    {
+        Music.nhac.Destroythis();
+        BGround.instance.Destroythis();
+        SceneManager.LoadScene(0);       
+    }
     public void ChangeMusic(int which)
     {
         Music.nhac.ChangeMusic(which);
@@ -35,5 +42,13 @@ public class MenuGame : MonoBehaviour
     public void Thoat()
     {
         Application.Quit();
+    }
+    public void ShowLogOut()
+    {
+        lo.SetActive(true);
+    }
+    public void HideLogOut()
+    {
+        lo.SetActive(false);
     }
 }
