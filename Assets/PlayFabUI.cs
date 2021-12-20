@@ -8,7 +8,6 @@ public class PlayFabUI : MonoBehaviour
 {
     [SerializeField] Text errorText;
     string username, email, pass;
-
     public void UpdateUsername(string a)
     {
         username = a;

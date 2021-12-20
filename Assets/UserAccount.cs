@@ -10,7 +10,6 @@ public class UserAccount : MonoBehaviour
 {
     public static UserAccount Instance;
     private string id;
-    private string titlename;
     public static UnityEvent onLoginSuccess = new UnityEvent();
     public static UnityEvent<string> onLoginFail = new UnityEvent<string>();
     public static UnityEvent<string> onCreateFail = new UnityEvent<string>();
@@ -30,8 +29,7 @@ public class UserAccount : MonoBehaviour
             reponse => { 
                 Debug.Log($"Succesful Account Create");
                 SetPlayerData("10000", "0", "0", "0");
-                SetUsername(username);
-                SignIn(username, pass);              
+                SignIn(username, pass);
             },
             error => { 
                 Debug.Log($"Fail Creating Account! \n {error.ErrorMessage}");
@@ -53,6 +51,7 @@ public class UserAccount : MonoBehaviour
                 id = reponse.PlayFabId;
                 Debug.Log($"Succesful Sign In");
                 GetPlayerData();
+                SetUsername(username);
                 onLoginSuccess.Invoke();
             },
             error =>
@@ -62,6 +61,7 @@ public class UserAccount : MonoBehaviour
             }
         ) ;
     }
+    
     public void SetPlayerData(string unlock, string s, string money, string h)
     {
         PlayFabClientAPI.UpdateUserData(new UpdateUserDataRequest()

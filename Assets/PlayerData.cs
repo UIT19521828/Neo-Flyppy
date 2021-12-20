@@ -10,10 +10,15 @@ public class PlayerData : MonoBehaviour
     private int selectedSkin;
     private int money;
     private int highScore;
+    private float v = (float)0.7;
+    private float mt = (float)1.8;
+
     public int SelectedSkin { get => selectedSkin; set => selectedSkin = value; }
     public int Money { get => money; set => money = value; }
     public int HighScore { get => highScore; set => highScore = value; }
-    
+    public float V { get => v; set => v = value; }
+    public float Mt { get => mt; set => mt = value; }
+
     private void Awake()
     {
         pd = this;

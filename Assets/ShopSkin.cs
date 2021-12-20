@@ -12,6 +12,7 @@ public class ShopSkin : MonoBehaviour
     public SpriteRenderer sr;
     public Animator bird;
     public Text giatien;
+    public GameObject notEnou;
     public Button btnBuy;
     public Button btnSelect;
     private void Start()
@@ -55,12 +56,20 @@ public class ShopSkin : MonoBehaviour
     }
     public void BuySkin()
     {
-        PlayerData.pd.BuySkin(price[choose], choose);
-        btnBuy.gameObject.SetActive(false);
-        btnSelect.gameObject.SetActive(true);
+        if (PlayerData.pd.Money < price[choose]) notEnou.SetActive(true);
+        else if (PlayerData.pd.Money >= price[choose])
+        {
+            PlayerData.pd.BuySkin(price[choose], choose);
+            btnBuy.gameObject.SetActive(false);
+            btnSelect.gameObject.SetActive(true);
+        }
     }
     public void ChooseThis()
     {
         PlayerData.pd.SetSelect(choose);
+    }
+    public void OK()
+    {
+        notEnou.SetActive(false);
     }
 }

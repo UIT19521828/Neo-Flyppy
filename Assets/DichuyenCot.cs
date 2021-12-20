@@ -15,4 +15,8 @@ public class DichuyenCot : MonoBehaviour
     {
         transform.position += Vector3.left * v * Time.deltaTime;
     }
+    public void ChangeV(float vantoc)
+    {
+        v = vantoc;
+    }
 }

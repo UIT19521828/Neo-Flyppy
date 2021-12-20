@@ -63,6 +63,7 @@
     <Compile Include="Assets\ScoreCount.cs" />
     <Compile Include="Assets\LoadSkin.cs" />
     <Compile Include="Assets\LoadInt.cs" />
+    <Compile Include="Assets\ChangeLevel.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\BGround.cs" />
     <Compile Include="Assets\Music.cs" />
